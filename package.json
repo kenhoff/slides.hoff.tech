@@ -1,0 +1,28 @@
+{
+  "name": "slides.hoff.tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "metalsmith.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenhoff/slides.hoff.tech.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenhoff/slides.hoff.tech/issues"
+  },
+  "homepage": "https://github.com/kenhoff/slides.hoff.tech#readme",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "metalsmith": "^2.2.0",
+    "metalsmith-branch": "0.0.4",
+    "metalsmith-changed": "^3.0.0",
+    "metalsmith-jade": "^2.0.2",
+    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-markdown": "^0.2.1"
+  }
+}
