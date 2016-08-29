@@ -64,15 +64,8 @@ pre, code {
 a, a:active, a:visited {
     color: blue
 }
-.location {
-    position: fixed;
-    left: 1em;
-    bottom: 1em;
-}
-.contact {
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
+.location, .contact {
+    padding: 1em
 }
 p {
     line-height: 1.5em;
@@ -82,5 +75,16 @@ blockquote {
     font-style: italic;
     text-align: center;
     font-size: 0.5em;
-	margin: auto;
+    margin: auto;
+}
+footer {
+	border-top: 1px solid lightgray;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+    position: fixed;
+	width: 100vw;
+    bottom: 0px;
+	left: 0px;
 }
