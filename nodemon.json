@@ -1,5 +1,0 @@
-{
-	"ext": "*",
-	"ignore": ["build", ".git"],
-	"watch": ["src", "layouts", "includes", "metalsmith.js"]
-}
