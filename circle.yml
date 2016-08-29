@@ -4,7 +4,7 @@ machine:
 
 deployment:
     production:
-        branch: source
+        branch: master
         commands:
             - chmod +x deploy.sh
             - ./deploy.sh
