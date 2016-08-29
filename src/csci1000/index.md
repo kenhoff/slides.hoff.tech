@@ -61,13 +61,33 @@ Spark is an entrepreneurial student co-working space on the Hill - underneath th
 
 USGS - detecting earthquakes with twitter - [usgs paper](https://pubs.er.usgs.gov/publication/70006356) - [xkcd comic](http://xkcd.com/723/)
 
-lijit (now sovrn) - general development
+lijit (now [sovrn](https://www.sovrn.com/)) - general development
 
-Rally Software (now CA Technologies) - "intrapreneurial projects"
+[Rally Software](https://www.rallydev.com/) (now CA Technologies) - "intrapreneurial projects"
 
 ## CU Boulder
 
+Graduated December 2013
+
+Bachelor's of Science of Computer Science (HCC Track)
+
+Senior Thesis: [Improving Educational Game Design Methods](https://github.com/kenhoff/thesis/blob/master/KenHoffThesis.pdf)
+
+Favorite class? Startup Essentials for Software Engineering (CSCI 4830?)
+
+> (might have been replaced by Entrepreneurial Capstone now)
+
 ## Microsoft
+
+Started working for Microsoft July 2014
+
+I was a "Program Manager" - Microsoft's version of a "Product Manager"
+
+Worked on **[Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)** - on a tiny little feature called "Reporting"
+
+Left December 2015, moved back to Boulder to work on consulting and side projects
+
+Best part of Microsoft? The [hackathon](http://blogs.microsoft.com/jobs/story-library/oneweek-hackathon-shows-culture-shift-at-microsoft/) - 2 days of working on whatever we wanted to work on
 
 --------------------------------------------------------------------------------
 
@@ -75,16 +95,21 @@ Rally Software (now CA Technologies) - "intrapreneurial projects"
 
 ## Consulting
 
+Independent, freelance, contract, consulting, whatever you want to call it
+
+I build web apps, frontends, APIs, and bots for people and companies.
+
+I work out of an office in Spark. Come say hi sometime!
+
 ## Barfly
 
+I've got a side project that helps bars order liquor every week.
+
+Bars have to order liquor in bulk from **distributors**. The problem is, each distributor carries different liquors, so bars have to put together 6-12 different distributor orders **every week**. On top of that, they have to order through **sales reps**, which usually only take text messages.
+
+
+
 ## Spark Classes
-
-## Playing a lot of video games
-
--   consulting
--   barfly
--   teaching classes
--   playing a lot of video games
 
 --------------------------------------------------------------------------------
 

@@ -6,10 +6,16 @@ html(lang = "en")
 		style(media='screen').
 			body {
 				font-family: 'EB Garamond', serif;
+				margin: 0px;
+				padding: 1em;
+				box-sizing: border-box;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
 				font-family: 'Montserrat', sans-serif;
+			}
+			h1 {
+				font-size: 2em;
 			}
 			strong {
 				text-decoration: underline;
@@ -18,6 +24,7 @@ html(lang = "en")
 				display: none;
 				margin: auto;
 				width: 100%;
+				padding-bottom: 3em;
 			}
 			.deck-current {
 				display: block;
@@ -62,13 +69,17 @@ html(lang = "en")
 				white-space: pre-wrap;
 			}
 			
+			a, a:active, a:visited {
+				color: blue
+			}
+			
 			.url {
-				position: absolute;
+				position: fixed;
 				left: 1em;
 				bottom: 1em;
 			}
 			.contact {
-				position: absolute;
+				position: fixed;
 				right: 1em;
 				bottom: 1em;
 			}
