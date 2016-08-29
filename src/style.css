@@ -1,0 +1,86 @@
+body {
+    font-family: 'EB Garamond', serif;
+    margin: 0px;
+    padding: 1em;
+    box-sizing: border-box;
+    padding-bottom: 3em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 2em;
+}
+strong {
+    text-decoration: underline;
+}
+.slide {
+    display: none;
+    margin: auto;
+    width: 100%;
+}
+.deck-current {
+    display: block;
+}
+img {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+@media (min-width: 34em) {
+    .slide {
+        max-width: 576px;
+    }
+}
+@media (min-width: 48em) {
+    .slide {
+        max-width: 720px;
+    }
+}
+@media (min-width: 62em) {
+    .slide {
+        max-width: 940px;
+    }
+}
+@media (min-width: 75em) {
+    .slide {
+        max-width: 1140px;
+    }
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 1em;
+}
+pre, code {
+    max-width: 100%;
+    white-space: pre-wrap;
+}
+a, a:active, a:visited {
+    color: blue
+}
+.location {
+    position: fixed;
+    left: 1em;
+    bottom: 1em;
+}
+.contact {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+}
+p {
+    line-height: 1.5em;
+}
+blockquote {
+    max-width: 50%;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.5em;
+	margin: auto;
+}

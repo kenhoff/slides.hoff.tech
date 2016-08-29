@@ -3,91 +3,12 @@ html(lang = "en")
 		meta(charset='utf-8')
 		link(href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.css" rel="stylesheet")
 		link(href="https://fonts.googleapis.com/css?family=EB+Garamond|Montserrat" rel="stylesheet")
-		style(media='screen').
-			body {
-				font-family: 'EB Garamond', serif;
-				margin: 0px;
-				padding: 1em;
-				box-sizing: border-box;
-			}
-
-			h1, h2, h3, h4, h5, h6 {
-				font-family: 'Montserrat', sans-serif;
-			}
-			h1 {
-				font-size: 2em;
-			}
-			strong {
-				text-decoration: underline;
-			}
-			.slide {
-				display: none;
-				margin: auto;
-				width: 100%;
-				padding-bottom: 3em;
-			}
-			.deck-current {
-				display: block;
-			}
-			img {
-				max-width: 50%;
-				height: auto;
-				margin: auto;
-				display: block;
-			}
-			@media (min-width: 34em) {
-				.slide {
-					max-width: 576px;
-				}
-			}
-			@media (min-width: 48em) {
-				.slide {
-					max-width: 720px;
-				}
-			}
-			@media (min-width: 62em) {
-				.slide {
-					max-width: 940px;
-				}
-			}
-			@media (min-width: 75em) {
-				.slide {
-					max-width: 1140px;
-				}
-			}
-			table {
-				border-collapse: collapse;
-			}
-			table, th, td {
-				border: 1px solid black;
-			}
-			th, td {
-				padding: 1em;
-			}
-			pre, code {
-				max-width: 100%;
-				white-space: pre-wrap;
-			}
-			
-			a, a:active, a:visited {
-				color: blue
-			}
-			
-			.url {
-				position: fixed;
-				left: 1em;
-				bottom: 1em;
-			}
-			.contact {
-				position: fixed;
-				right: 1em;
-				bottom: 1em;
-			}
+		link(rel="stylesheet" href = "/style.css")
 		base(target="_blank")
 
 body
 	div !{contents}
-	a.url asdfasdfasdf
+	a.location asdfasdfasdf
 	a.contact(href="mailto:ken@hoff.tech") ken@hoff.tech
 	script(src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js', charset='utf-8')
 	script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js')
@@ -99,9 +20,8 @@ body
 			$.deck('.slide');
 		});
 	script.
-		$(".url").text(window.location).prop("href", window.location)
+		$(".location").text(window.location).prop("href", window.location)
 		$(document).bind("deck.change", function (event, from, to) {
 			newURL = [window.location.href.split("#")[0], to].join("#")
-			$(".url").text(newURL).prop("href", newURL)
+			$(".location").text(newURL).prop("href", newURL)
 		})
-	
